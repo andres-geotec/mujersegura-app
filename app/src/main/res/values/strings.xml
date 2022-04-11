@@ -1,0 +1,121 @@
+<resources>
+    <string name="app_name">MujerSegura</string>
+    <string name="build_by">Aplicación construida por: GEOLANDER CONSULTORES.\n\nEn colaboración con: ANDRES.GEOTEC@GMAIL.COM</string>
+
+    <!-- Titles activities -->
+    <string name="title_activity_login">Ingresa con tu cuenta</string>
+    <string name="title_activity_registry">Crea una cuenta</string>
+    <string name="title_activity_profile">Usuario: </string>
+    <string name="title_activity_message">Comunicate con nosotros</string>
+    <string name="title_activity_setting">Configuración</string>
+    <string name="title_activity_tutorial">Tutorial</string>
+
+    <!-- Prompts (hint) -->
+    <string name="prompt_user_email">Correo</string>
+    <string name="prompt_user_password">Contraseña</string>
+    <string name="prompt_user_name">Nombre de usuario</string>
+    <string name="prompt_user_surname">Apellidos</string>
+    <string name="prompt_user_date_birth">Fecha de nacimiento</string>
+    <string name="prompt_user_age">Edad</string>
+    <string name="prompt_user_password_verify">Confirmación de contraseña</string>
+
+    <!-- Errors -->
+    <string name="error_invalid_email">Correo invalido</string>
+    <string name="error_incorrect_email">Correo no encontrado</string>
+    <string name="error_invalid_password">Contraseña muy corta</string>
+    <string name="error_incorrect_password">Contraseña incorrecta</string>
+    <string name="error_invalid_range">Dato Fuera de rango</string>
+    <string name="error_field_required">Campo requerido</string>
+    <string name="error_try_json">Ha ocurrido un pequeño error con tu dispositivo (JSONException)</string>
+    <string name="error_connected_internet">No estas conectado a internet</string>
+    <string name="error_response_volley">Se há producido un  error al conecctarse con el servidor</string>
+    <string name="error_open_session">No se pudo iniciar session</string>
+
+    <!-- Permissions -->
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+
+    <!-- Buttons -->
+    <string name="button_login">Entrar</string>
+    <string name="button_registry">Registrarme</string>
+
+    <!-- Actions -->
+    <string name="action_accessing">Ingresando...</string>
+    <string name="action_notify_alert_activate">Activando notificación...</string>
+    <string name="action_notify_alert_deactivate">Desactivando notificación...</string>
+    <string name="action_press_active_alert">Presiona para activar una alerta</string>
+
+    <!-- Tabs titles -->
+    <string name="tab_title_home">Inicio</string>
+    <string name="tab_title_reports">Reportes</string>
+    <string name="tab_title_attention">Atención</string>
+    <string name="tab_title_rights">Derechos</string>
+
+    <!-- Popup titles -->
+    <string name="popup_title_settings">Configuración</string>
+    <string name="popup_title_tutorial">Tutorial</string>
+    <string name="popup_title_about">Acerca De</string>
+    <string name="popup_title_profile">Perfil</string>
+    <string name="popup_title_opinion">Opina</string>
+    <string name="popup_title_logout">Salir</string>
+
+    <!-- Settings titles -->
+    <string name="pref_title_noti_alert_wpb">Activar notificación en espera de alerta</string>
+
+    <!-- Preferences -->
+    <string name="PREFERENCE_SESSION_ID">id_mujersegura_session</string>
+    <string name="PREFERENCE_SESSION_VAR_STATUS">session_status</string>
+    <string name="PREFERENCE_SESSION_VAR_CVE">session_cve</string>
+    <string name="PREFERENCE_SESSION_VAR_NAME">session_name</string>
+    <string name="PREFERENCE_SESSION_VAR_EMAIL">session_email</string>
+    <string name="PREFERENCE_SESSION_VAR_DATE_BIRTH">session_date_birth</string>
+    <string name="PREFERENCE_SESSION_VAR_AVATAR">session_avatar</string>
+    <string name="PREFERENCE_SESSION_VAR_TIMESTAMP">session_timestamp</string>
+    <string name="PREFERENCE_SETTING_ID">id_mujersegura_setting</string>
+    <string name="PREFERENCE_SETTING_VAR_NOTI_ALERT_WPB">setting_noti_alert_wpb</string>
+
+    <!-- URLs Api Rest -->
+    <string name="URL_API">http://tec.geo-estrategia.net/mujersegura/v0_190926/_REST/</string>
+    <string name="api_login">users/login.php</string>
+    <string name="api_registry">users/registry.php</string>
+    <string name="api_rights">rights/getRights.php</string>
+    <string name="api_start_alert">alerts/startAlert.php</string>
+    <string name="api_add_point">alerts/addPoint.php</string>
+    <string name="api_stop_alert">alerts/stopAlert.php</string>
+
+    <!-- Rest json response -->
+    <string name="rest_json_response_result">result</string>
+    <string name="rest_json_response_code">cod</string>
+    <string name="rest_json_response_message">msg</string>
+    <string name="rest_json_response_data">data</string>
+    <string name="rest_json_response_meta">meta</string>
+    <string name="rest_json_response_type">type</string>
+    <string name="rest_type_user">user</string>
+    <string name="rest_type_rights">rights</string>
+    <!-- Rest var -->
+    <string name="rest_var_user_cve">cve_user</string>
+    <string name="rest_var_user_email">email_user</string>
+    <string name="rest_var_user_name">name_user</string>
+    <string name="rest_var_user_date_birth">date_birth_user</string>
+    <string name="rest_var_user_avatar">picture_user</string>
+    <string name="rest_var_user_type">type_user</string>
+    <string name="rest_var_user_timestamp">timestamp_user</string>
+    <string name="rest_var_user_password">password_user</string>
+    <string name="rest_var_user_password_verify">password_verify_user</string>
+    <string name="rest_var_right_cve">cve_right</string>
+    <string name="rest_var_right_name">name_right</string>
+    <string name="rest_var_right_source">source_right</string>
+    <string name="rest_var_right_description">desc_right</string>
+    <string name="rest_var_right_timestamp">timestamp_right</string>
+    <string name="rest_var_alert_cve">cve_alert</string>
+    <string name="rest_var_alert_device_start">device_start_alert</string>
+    <string name="rest_var_alert_device_stop">device_stop_alert</string>
+    <string name="rest_var_alert_point_lat">lat_point_alert</string>
+    <string name="rest_var_alert_point_lng">lng_point_alert</string>
+    <string name="rest_var_alert_point_timestamp">timestamp_point_alert</string>
+
+    <!-- API access tokens -->
+    <string name="access_token_MapBox">pk.eyJ1IjoiYW5kcmVzeW8xNiIsImEiOiJjamY3aTk0NXUxbjhtMnFwNDR3NGRkMjIzIn0.asnd92Pc5xQYxNUXHmSZvg</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

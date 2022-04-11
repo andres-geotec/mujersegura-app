@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RightsFragment" >
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:orientation="vertical"
+        android:padding="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcl_rights_online"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical" />
+
+        <TextView
+            android:id="@+id/lbl_rights_sample"
+            android:visibility="gone"
+            android:text="datos consultados"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ProgressBar
+            android:id="@+id/pbr_rights_load_online"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!--Button
+            android:text="load"
+            android:layout_alignParentBottom="true"
+            android:drawableTop="@mipmap/ic_cloud_off"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" /-->
+
+    </RelativeLayout>
+
+</FrameLayout>

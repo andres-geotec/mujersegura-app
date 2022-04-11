@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/popup_main_settings"
+        android:title="@string/popup_title_settings"/>
+
+    <item
+        android:id="@+id/popup_main_tutorial"
+        android:title="@string/popup_title_tutorial"/>
+
+    <item
+        android:id="@+id/popup_main_about"
+        android:title="@string/popup_title_about"/>
+
+    <item
+        android:id="@+id/popup_main_logout"
+        android:title="@string/popup_title_logout"/>
+
+    <item
+        android:id="@+id/popup_main_porfile"
+        android:title="@string/popup_title_profile"
+        android:icon="@mipmap/ic_user"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/popup_main_opinion"
+        android:title="@string/popup_title_opinion"
+        android:icon="@mipmap/ic_message"
+        app:showAsAction="ifRoom"/>
+
+</menu>
